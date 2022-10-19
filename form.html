@@ -1,0 +1,56 @@
+<!Doctype html>
+<head>
+<title>Application Form</title>
+<link rel="stylesheet" href="./form.css">
+</head>
+  <body>
+  <span style="margin-left:320px;color:green;">TO THE NEW</span>
+  <span style="margin-left:420px;color:green;">Help</span>
+  <span style="color:green;">Quick help</span>
+  <hr style="width:50%;"></hr>
+  <div class="formbody">
+  <div style="height:50px;background-color:grey;margin-top:-21px;">
+   <h4 style="padding:20px;color:white;">Bug Report</h4>
+  </div><br>
+    <form>
+    <label>Title*</label><br>
+    <input type="text" name="title" required><br>
+      <label>Description*</label><br>
+    <textarea rows="3"></textarea><br>
+     <label>Operating System*</label><br>
+     <select style="margin-left:20px;border-radius:3px;width:78%;background-color:green;color:white;">
+     <option>window xp</option>
+     <option>mac os</option>
+     <option>linux</option>
+     </select><br>
+     <label>Product*</label><br>
+     <select style="margin-left:20px;border-radius:3px;width:78%;background-color:green;color:white;">
+     <option>microsoft</option>
+     <option>apple</option>
+     <option>oracle</option>
+     </select><br>
+     <label>Version*</label><br>
+     <input type="text" name="version" style="width:60px;" required><br>
+    
+     <label>Licence*</label><br>
+     <input style="float:left;margin-left:-85px;" type="radio" id="free" name="licence_type" value="free">
+      <label  style="margin-left:-110px;" for="free">free</label>
+ 
+   <input style="float:left;margin-top:-15px;" type="radio" id="paid" name="licence_type" value="paid">
+   <label style="margin-left:70px;" for="paid">paid</label> <br>
+   
+     <label>Security*</label><br>
+     <select style="margin-left:20px;border-radius:3px;width:78%;background-color:green;color:white;">
+     <option>critical</option>
+     <option>minor</option>
+     <option>major</option>
+     </select><br>
+     <label>Attachment*</label>
+     <input type="file" name="fileattach" value="upload">
+    </form>
+    <div style="height:45px;background-color:grey;margin-top:50px;">
+          <button type="submit" style="background-color:green;color:white;margin-left:240px;margin-top:10px;">Save</button>
+     </div>
+  </div>
+  </body>
+</html>
